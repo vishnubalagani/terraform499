@@ -3,6 +3,7 @@ resource "aws_vpc" "name" {
     tags = {
       name=vishnuvpc
       dept=ece
+      owner=mahi
     }
 
   
